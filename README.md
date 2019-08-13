@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação tindev usando Node.js, Express, Mongoose, MongoDB Atlas e MongoDB Compass Community.
+Aplicação tindev usando Node.js, Express, Socket.io, Mongoose, MongoDB Atlas e MongoDB Compass Community.
 
 ## Índice
 
@@ -57,6 +57,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [Mongoose](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/mongoose.md)
 
 - [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
+
+- [Socket.io](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/socketio.md)
 
 ### APIs
 
