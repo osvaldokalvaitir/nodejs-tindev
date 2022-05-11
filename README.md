@@ -1,84 +1,61 @@
-# Node.js - Tindev
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="400px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/nodejs-tindev/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/nodejs-tindev.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/nodejs-tindev.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-tindev.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-tindev.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/nodejs-tindev.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/nodejs-tindev.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  Node.js - Tindev
+</h3>
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Tindev&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fosvaldokalvaitir%2Fnodejs-tindev%2Fmaster%2FInsomnia.json)
+<p align="center">
+  :man_technologist: Tindev Application using Node.js, Express, Socket.io, Mongoose, MongoDB Atlas, MongoDB Compass Community and Insomnia
+</p>
 
-Aplicação tindev usando Node.js, Express, Socket.io, Mongoose, MongoDB Atlas e MongoDB Compass Community.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-tindev.svg?color=00A83A">
 
-## Índice
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-tindev.svg?color=00A83A">
 
-- [Desenvolvimento](#desenvolvimento)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+<p align="center">
+  <a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Execução do Projeto](#execução-do-projeto)
+## :wrench: Install and run
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
-  
-  - [APIs](#apis)  
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/nodejs-tindev
 
-  - [Ferramentas](#ferramentas)
+# Entry in folder
+cd nodejs-tindev
 
-## Desenvolvimento
+# Install deps with npm or yarn
+npm install | yarn
 
-### Configuração do Ambiente
+# Launch the app with npm or yarn
+npm dev | yarn dev
+```
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
+Click to learn more about the tools used: [Insomnia](https://github.com/osvaldokalvaitir/awesome/blob/main/src/api-clients/insomnia/insomnia.md), [MongoDB Atlas](https://github.com/osvaldokalvaitir/awesome/blob/main/src/sgdbs/mongodb/mongodb-atlas.md), [MongoDB Compass Community](https://github.com/osvaldokalvaitir/awesome/blob/main/src/sgdbs/mongodb/mongodb-compass-community.md).
 
-### Instalação do Projeto
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Tindev&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fosvaldokalvaitir%2Fnodejs-tindev%2Fmain%2FInsomnia.json)
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
+## :memo: License
 
-### Execução do Projeto
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Execução de Projeto para Desenvolvimento` ou `Execução de Projeto para Produção`.
+---
 
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [CORS](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/cors.md)
-
-- [Express](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express.md)
-
-- [Mongoose](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/mongoose.md)
-
-- [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
-
-- [Socket.io](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/socketio.md)
-
-### APIs
-
-- **Interna**
-
-  - **Rotas**
-
-    - Devs
-
-      - Adiciona novos devs
-      - Lista todos os devs que não seja ele mesmo, não esteja nos likes e nos dislikes
-      - Likes nos devs
-      - Dislikes nos devs
-
-### Ferramentas
-
-- [Insomnia](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api-client/insomnia.md)
-
-- [MongoDB Atlas](https://github.com/osvaldokalvaitir/projects-settings/blob/master/database/mongodb/mongodb-atlas.md)
-
-- [MongoDB Compass Community](https://github.com/osvaldokalvaitir/projects-settings/blob/master/database/mongodb/mongodb-compass-community.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
